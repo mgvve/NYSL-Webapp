@@ -32,9 +32,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background: linear-gradient(rgb(8, 61, 52), rgb(93, 250, 198));
+  background: linear-gradient(rgb(8, 196, 149), rgb(255, 255, 255));
   width: 100%;
-  height: 100vh;
+  height: 200%;
   display: fixed;
   margin: 0;
   padding: 0;
@@ -42,13 +42,14 @@ export default {
 
   
   header{
+    
   h1{
-    color: rgb(193, 255, 23);
+    color: rgb(9, 78, 57);
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 800;
     text-align: left;
     margin: 0 0 0 110px;
-    
+    text-shadow: rgb(157, 255, 0) 4px 4px ;
   }  h2{
     background: linear-gradient(rgb(136, 255, 0), white);
     margin: 0 0 0 100px;
@@ -78,22 +79,24 @@ nav {
   align-content: center;
   align-content: center;
   margin: 0;
-  width: 100%;
+  width: 100vw;
   background:transparent;
 
   a {
     font-weight: bold;
     color: rgb(187, 255, 0);
-    padding: 15px;
-    background: rgba(7, 129, 93, 0.5);
+    padding: 10px;
+    background: rgba(7, 129, 93, 0.8);
     border: solid 1px rgb(2, 31, 24);
     border-radius: 5px;
     width: 100vw;
     text-decoration: none;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     &.router-link-exact-active {
       color: rgb(2, 44, 34);
-      background: linear-gradient(rgba(166, 240, 97, 0.7), rgb(137, 238, 42));
+      background: linear-gradient(rgba(166, 240, 97, 1), rgb(137, 238, 42));
       text-decoration: none;
     }
   }

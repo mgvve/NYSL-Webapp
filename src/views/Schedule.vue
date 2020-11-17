@@ -2,18 +2,14 @@
   <div id="schedule" class="main">
     <header>
       <img alt="nysl logo" src="../assets/logo.png" id="logo">
-      <h2>Schedule</h2>
-
-      <div id="card" class="gameCard" v-for="(game,index) in games" :key="index">
+      <h2>Schedule</h2> 
+    </header>
+    
+     <div id="card" class="gameCard" v-for="(game,index) in games" :key="index">
         <h3> {{game.date}} - {{game.teamA}} vs {{game.teamB}} </h3>
         <p> {{game.time}}</p>
         <p>{{game.location}}</p>      
-      </div>
-      
-  
-      
-      
-    </header>
+    </div>
     
 
 
